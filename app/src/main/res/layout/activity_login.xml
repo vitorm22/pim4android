@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".activity.activity.LoginActivity">
+
+    <TextView
+        android:id="@+id/textViewHolfree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/volkhov"
+        android:text="Holfree"
+        android:textColor="#016C02"
+        android:textColorHighlight="#E80000"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/background_texto"
+        android:drawableLeft="@drawable/baseline_local_post_office_24"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text|textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="#FDFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextSenhaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/background_texto"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="text|textPassword"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="#FDFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_botao"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F4E7E7"
+        android:textColorHint="#EADDDD"
+        android:textColorLink="#E6E6E6"
+        app:backgroundTint="#020202" />
+
+    <Button
+        android:id="@+id/buttonCadastreseLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgorund_button_cadastre_se"
+        android:onClick="cadastrar"
+        android:text="Cadastre-se"
+        android:textColor="#F0F4F0"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#E6E6E6"
+        app:backgroundTint="#000000" />
+
+</LinearLayout>
+
+

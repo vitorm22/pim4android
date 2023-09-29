@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".activity.activity.CadastroActivity">
+
+    <TextView
+        android:id="@+id/textViewHolfree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/volkhov"
+        android:text="Holfree"
+        android:textColor="#017302"
+        android:textColorHighlight="#221818"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/background_texto"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="#FDFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:autofillHints=""
+        android:background="@drawable/background_texto"
+        android:drawableLeft="@drawable/baseline_local_post_office_24"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="text|textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="#FDFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/background_texto"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="text|textPassword"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="#FDFBFB"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/background_texto"
+        android:text="@string/cadastrar"
+        android:textColor="#FAF6F6"
+        android:textColorHighlight="#F4E9E9"
+        android:textColorHint="#EADDDD"
+        android:textColorLink="#E6E6E6"
+        app:backgroundTint="#000000" />
+
+</LinearLayout>
